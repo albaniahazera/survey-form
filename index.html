@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link href="index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <h1>Survey Untuk Pengetesan Keahlian</h1>
+    </header>
+    <form class="form" name="form">
+      <div>
+        <p>
+          Nama:
+          <input type="text" required />
+        </p>
+        <p>
+          Gender:
+          <input type="radio" name="radio" checked /> Laki-laki
+          <input type="radio" name="radio" /> Perempuan
+        </p>
+        <p>
+          Tanggal Lahir:
+          <input type="date" required />
+        </p>
+        <p>
+          Email:
+          <input type="email" required />
+        </p>
+        <label for="pertanyaan">
+          <p>
+            Rate Survey Form Saya:
+            <input type="radio" name="Rate-Survey" id="Rate-Survey" /> 1-25
+            <input type="radio" name="Rate-Survey" id="Rate-Survey" /> 26-50
+            <input type="radio" name="Rate-Survey" id="Rate-Survey" /> 51-75
+            <input type="radio" name="Rate-Survey" id="Rate-Survey" /> 76-100
+          </p>
+        </label>
+        <label for="pertanyaan1"></label>
+        <label for="pertanyaan2"></label>
+        <button action="#">Submit</button>
+      </div>
+    </form>
+    <footer></footer>
+  </body>
+</html>
